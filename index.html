@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio FitCore | Treino personalizado, acompanhado de perto</title>
+<meta name="description" content="Studio FitCore: treino personalizado com ficha digital, acompanhamento semanal e metas visíveis para cada aluno.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+document.documentElement.className = "js";
+</script>
+</head>
+<body>
+<svg width="0" height="0" style="position: absolute" aria-hidden="true">
+<defs>
+<symbol id="halter" viewBox="0 0 100 40"><rect x="0" y="8" width="10" height="24" rx="2"/><rect x="12" y="2" width="12" height="36" rx="2"/><rect x="24" y="17" width="52" height="6"/><rect x="76" y="2" width="12" height="36" rx="2"/><rect x="90" y="8" width="10" height="24" rx="2"/></symbol>
+</defs>
+</svg>
+<header class="top">
+<a class="logo" href="#inicio" aria-label="Studio FitCore, início">FitCore<span>studio</span></a>
+<nav aria-label="Principal">
+<a href="#estudio">O estúdio</a>
+<a href="#problema">O problema</a>
+<a href="#visoes">Três visões</a>
+<a href="#contato" class="btn small">Agendar avaliação</a>
+</nav>
+</header>
+
+<main id="inicio">
+<section class="hero">
+<svg class="plate" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="74"/><circle cx="100" cy="100" r="22"/><g><path d="M100 4v26M100 170v26M4 100h26M170 100h26"/></g></svg>
+<div class="hero-text">
+<h1>Seu treino de hoje, ajustado pelo seu personal, no seu bolso.</h1>
+<p>No FitCore cada aluno tem uma ficha própria, revisada toda semana. Agora ela fica no celular: carga, séries e execução de cada exercício, mesmo nos dias sem personal.</p>
+<div class="actions">
+<a class="btn" href="#contato">Agendar avaliação</a>
+<a class="btn ghost" href="#visoes">Ver como funciona</a>
+</div>
+<p class="hint">A ficha ao lado é interativa: marque as séries e mude a carga.</p>
+</div>
+
+<div class="phone" aria-label="Demonstração da ficha de treino">
+<div class="phone-head">
+<div>
+<p class="who">Camila R.</p>
+<p class="day">Treino B · segunda-feira</p>
+</div>
+<div class="ring" role="img" aria-label="Progresso do treino">
+<svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="18" class="track"/><circle id="ring" cx="22" cy="22" r="18" class="bar"/></svg>
+<span id="pct">0%</span>
+</div>
+</div>
+<ul id="sheet" class="sheet"></ul>
+<p class="coach"><strong>Recado do Marcos:</strong> se as 3 séries do agachamento saírem leves, suba 2 kg na próxima semana.</p>
+<p id="done-msg" class="done" hidden>Treino concluído. Seu personal já foi avisado.</p>
+</div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="m-track">
+<span>Musculação<svg class="mi"><use href="#halter"/></svg>Treino funcional<svg class="mi"><use href="#halter"/></svg>Reabilitação física<svg class="mi"><use href="#halter"/></svg>Emagrecimento<svg class="mi"><use href="#halter"/></svg></span>
+<span>Musculação<svg class="mi"><use href="#halter"/></svg>Treino funcional<svg class="mi"><use href="#halter"/></svg>Reabilitação física<svg class="mi"><use href="#halter"/></svg>Emagrecimento<svg class="mi"><use href="#halter"/></svg></span>
+</div></div>
+
+<section id="estudio" class="block reveal">
+<h2>Um estúdio onde o personal conhece o seu treino</h2>
+<p>Equipamentos de musculação e funcional, e um professor que ajusta a sua ficha toda semana.</p>
+<div class="gallery">
+<figure class="photo" style="--img:url('img/fitCore1.png')"><figcaption>Musculação</figcaption></figure>
+<figure class="photo" style="--img:url('img/fitCore2.png')"><figcaption>Treino funcional</figcaption></figure>
+<figure class="photo" style="--img:url('img/fitCore3.png')"><figcaption>Reabilitação física</figcaption></figure>
+<figure class="photo" style="--img:url('img/fitCore4.png')"><figcaption>Ambiente do estúdio</figcaption></figure>
+</div>
+</section>
+
+<section class="banner">
+<div class="stats">
+<div><p class="num"><span data-count="80">80</span></p><p>alunos ativos</p></div>
+<div><p class="num"><span data-count="3">3</span></p><p>personal trainers</p></div>
+<div><p class="num"><span data-count="100">100</span>%</p><p>dos alunos com ficha própria</p></div>
+</div>
+</section>
+
+<section id="problema" class="block reveal">
+<h2>O papel funcionava com 15 alunos. Com 80, não funciona mais.</h2>
+<div class="compare">
+<div>
+<h3>Antes: papel e WhatsApp</h3>
+<ul>
+<li>Alunos perdem a ficha ou esquecem a carga.</li>
+<li>Em dias sem personal, ninguém lembra a execução correta.</li>
+<li>Os 3 professores gastam horas montando fichas e enviando PDFs.</li>
+<li>Quem treina sozinho sente que ninguém acompanha, e cancela a matrícula.</li>
+</ul>
+</div>
+<div class="after">
+<h3>Com o FitCore digital</h3>
+<ul>
+<li>A ficha da semana está sempre no celular do aluno.</li>
+<li>Cada exercício mostra carga, séries e como executar.</li>
+<li>O personal ajusta o treino em minutos, sem refazer papel.</li>
+<li>Faltas e evolução aparecem para a equipe antes do aluno desistir.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="visoes" class="block alt reveal">
+<h2>Uma ferramenta, três pontos de vista</h2>
+<div class="tabs" role="tablist" aria-label="Escolha a visão">
+<button role="tab" aria-selected="true" aria-controls="p-aluno" id="t-aluno">Aluno</button>
+<button role="tab" aria-selected="false" aria-controls="p-personal" id="t-personal" tabindex="-1">Personal</button>
+<button role="tab" aria-selected="false" aria-controls="p-socios" id="t-socios" tabindex="-1">Sócios</button>
+</div>
+
+<div id="p-aluno" role="tabpanel" aria-labelledby="t-aluno" class="panel">
+<p>O aluno abre o treino do dia, marca o que fez e vê a própria evolução. Metas e frequência ficam à vista, o que reforça a sensação de acompanhamento contínuo.</p>
+<div class="goals">
+<div><p class="k">Frequência do mês</p><div class="meter"><i style="width:75%"></i></div><p class="v">12 de 16 treinos</p></div>
+<div><p class="k">Meta: agachamento 20 kg</p><div class="meter"><i style="width:80%"></i></div><p class="v">16 kg hoje</p></div>
+<div><p class="k">Meta: -3 kg até dezembro</p><div class="meter"><i style="width:50%"></i></div><p class="v">1,5 kg a menos</p></div>
+</div>
+</div>
+
+<div id="p-personal" role="tabpanel" aria-labelledby="t-personal" class="panel" hidden>
+<p>O professor vê todos os alunos que atende, edita a ficha na hora e identifica quem está faltando para agir primeiro.</p>
+<table>
+<thead><tr><th>Aluno</th><th>Foco</th><th>Treinos na semana</th><th>Ação</th></tr></thead>
+<tbody>
+<tr><td>Camila R.</td><td>Emagrecimento</td><td>3 de 3</td><td><span class="ok">Em dia</span></td></tr>
+<tr><td>Bruno S.</td><td>Reabilitação</td><td>1 de 3</td><td><button class="btn small ghost nudge">Enviar mensagem</button></td></tr>
+<tr><td>Helena M.</td><td>Funcional</td><td>3 de 3</td><td><span class="ok">Em dia</span></td></tr>
+<tr><td>Paulo T.</td><td>Reabilitação</td><td>0 de 3</td><td><button class="btn small ghost nudge">Enviar mensagem</button></td></tr>
+</tbody>
+</table>
+<p class="note">Dados fictícios para demonstração.</p>
+</div>
+
+<div id="p-socios" role="tabpanel" aria-labelledby="t-socios" class="panel" hidden>
+<p>Marcos e a investidora acompanham a retenção mês a mês, com o número que ela cobra: quantos alunos continuam no estúdio.</p>
+<figure>
+<svg viewBox="0 0 360 170" role="img" aria-label="Retenção de alunos, de abril a setembro: 82, 84, 86, 88, 90 e 91 por cento">
+<g id="bars"></g>
+</svg>
+<figcaption>Alunos que renovaram a matrícula (%). Dados fictícios para demonstração.</figcaption>
+</figure>
+</div>
+</section>
+
+<section id="contato" class="block contact reveal">
+<h2>Quer treinar com acompanhamento de verdade?</h2>
+<p>Há lista de espera para novos alunos. Deixe seu contato e o Marcos marca uma avaliação.</p>
+<form id="lead">
+<label>Nome<input name="nome" required autocomplete="name"></label>
+<label>WhatsApp<input name="tel" type="tel" required autocomplete="tel"></label>
+<label>Objetivo
+<select name="obj"><option>Emagrecimento</option><option>Reabilitação física</option><option>Treino funcional</option></select>
+</label>
+<button class="btn" type="submit">Entrar na lista</button>
+</form>
+<p id="lead-msg" class="done" hidden>Recebemos seu contato. Em breve o Marcos fala com você.</p>
+<p class="note">Formulário de demonstração: nenhum dado é enviado ou armazenado.</p>
+</section>
+</main>
+
+<footer><p>Studio FitCore · projeto acadêmico de Design Profissional · 2026</p></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+const exercises = [
+{ nome: "Agachamento goblet", series: 3, reps: "10 repetições", carga: 16, como: "Costas retas, joelhos alinhados com os pés, desça até a coxa ficar paralela ao chão." },
+{ nome: "Remada baixa", series: 3, reps: "12 repetições", carga: 30, como: "Puxe com os cotovelos rente ao corpo e aperte as escápulas no final." },
+{ nome: "Elevação pélvica", series: 3, reps: "12 repetições", carga: 40, como: "Calcanhares firmes no chão, suba o quadril sem arquear a lombar." },
+{ nome: "Prancha lateral", series: 3, reps: "30 segundos", carga: null, como: "Corpo em linha reta, ombro sobre o cotovelo, abdômen contraído." }
+];
+const total = exercises.reduce((n, e) => n + e.series, 0);
+const sheet = document.getElementById("sheet");
+const ring = document.getElementById("ring");
+const pct = document.getElementById("pct");
+const doneMsg = document.getElementById("done-msg");
+const toastEl = document.getElementById("toast");
+let toastTimer;
+
+function toast(msg) {
+  toastEl.textContent = msg
+  toastEl.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toastEl.classList.remove("show"), 2400);
+}
+
+function update() {
+  const done = sheet.querySelectorAll('.set[aria-pressed="true"]').length;
+  const p = Math.round((done / total) * 100);
+  ring.style.strokeDashoffset = 113.1 * (1 - p / 100);
+  pct.textContent = p + "%";
+  doneMsg.hidden = done !== total;
+}
+
+exercises.forEach((e) => {
+  const li = document.createElement("li");
+  li.className = "ex";
+  let sets = "";
+  for (let i = 1; i <= e.series; i++) sets += `<button class="set" aria-pressed="false" aria-label="${e.nome}, série ${i}">${i}</button>`;
+  const load = e.carga === null ? `<span class="ex-meta">Peso corporal</span>` :
+  `<div class="load"><button aria-label="Diminuir carga de ${e.nome}">−</button><span>${e.carga} kg</span><button aria-label="Aumentar carga de ${e.nome}">+</button></div>`;
+  li.innerHTML = `<div class="ex-top"><span class="ex-name">${e.nome}</span><span class="ex-meta">${e.series} × ${e.reps}</span></div>
+  <div class="row"><div class="sets">${sets}</div>${load}</div><p class="how">${e.como}</p>`;
+  const span = li.querySelector(".load span");
+  let carga = e.carga;
+  li.querySelectorAll(".load button").forEach((b, i) => b.addEventListener("click", () => {
+    carga = Math.max(0, carga + (i === 0 ? -2 : 2));
+    span.textContent = carga + " kg";
+  }));
+li.querySelectorAll(".set").forEach((s) => s.addEventListener("click", () => {
+  s.setAttribute("aria-pressed", s.getAttribute("aria-pressed") === "true" ? "false" : "true");
+  update();
+}));
+sheet.appendChild(li);
+});
+
+const tabs = [...document.querySelectorAll('[role="tab"]')];
+function select(tab) {
+  tabs.forEach((t) => {
+    const on = t === tab;
+    t.setAttribute("aria-selected", on);
+    t.tabIndex = on ? 0 : -1;
+    document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+  });
+tab.focus();
+}
+tabs.forEach((t, i) => {
+  t.addEventListener("click", () => select(t));
+  t.addEventListener("keydown", (ev) => {
+    if (ev.key === "ArrowRight") select(tabs[(i + 1) % tabs.length]);
+    if (ev.key === "ArrowLeft") select(tabs[(i + tabs.length - 1) % tabs.length]);
+  });
+});
+
+const meses = [["Abr", 82], ["Mai", 84], ["Jun", 86], ["Jul", 88], ["Ago", 90], ["Set", 91]];
+document.getElementById("bars").innerHTML = meses.map(([m, v], i) => {
+  const h = (v - 70) * 4.6, x = 15 + i * 58;
+  return `<rect class="bar-r" x="${x}" y="${150 - h}" width="40" height="${h}" rx="4"/>
+  <text class="bar-t" x="${x + 20}" y="${143 - h}">${v}%</text><text class="bar-m" x="${x + 20}" y="165">${m}</text>`;
+}).join("");
+
+document.querySelectorAll(".nudge").forEach((b) => b.addEventListener("click", () => {
+  b.textContent = "Mensagem enviada";
+  b.disabled = true;
+  toast("Mensagem enviada ao aluno");
+}));
+
+document.getElementById("lead").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  ev.target.hidden = true;
+  document.getElementById("lead-msg").hidden = false;
+});
+
+const io = new IntersectionObserver((items) => items.forEach((i) => {
+  if (i.isIntersecting) { i.target.classList.add("in-view"); io.unobserve(i.target); }
+}), { threshold: 0.12 });
+document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const co = new IntersectionObserver((items) => items.forEach((i) => {
+  if (!i.isIntersecting) return;
+  co.unobserve(i.target);
+  const el = i.target, end = +el.dataset.count;
+  if (reduce) return;
+  const t0 = performance.now();
+  (function tick(t) {
+    const k = Math.min((t - t0) / 1400, 1);
+    el.textContent = Math.round(end * (1 - Math.pow(1 - k, 3)));
+    if (k < 1) requestAnimationFrame(tick);
+  })(t0);
+}), { threshold: 0.6 });
+document.querySelectorAll("[data-count]").forEach((el) => co.observe(el));
+</script>
+</body>
+</html>
